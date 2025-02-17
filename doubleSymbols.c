@@ -8,14 +8,11 @@ int main() {
     return 1;
   }
 
-  for (int i = 0; i < n; i++) {
+  for (int i = 0; i < n; i+=2) {
     if (i % 2 == 0) {
-      printf("*");
-    } else {
-      printf("+");
+      printf("*+");
     }
   }
-  printf("\n");
 
   return 0;
 }
